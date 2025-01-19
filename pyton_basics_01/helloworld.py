@@ -11,3 +11,7 @@ sum = num1 + num2
 
 # Output: Display the result
 print("The sum of", num1, "and", num2, "is:", sum)
+a =4
+b =5
+x =a+b
+print(x)
