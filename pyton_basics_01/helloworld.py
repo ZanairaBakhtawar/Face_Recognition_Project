@@ -40,3 +40,7 @@ while i <= 5:
     print(i)
     i = i + 1
 print('Done')
+
+kg = float(input("Enter weight in kg: "))
+lbs = kg * 2.20462
+print(f"{kg} kg is equal to {lbs} lbs")
