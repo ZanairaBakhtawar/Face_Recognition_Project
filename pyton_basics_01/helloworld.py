@@ -44,3 +44,11 @@ print('Done')
 kg = float(input("Enter weight in kg: "))
 lbs = kg * 2.20462
 print(f"{kg} kg is equal to {lbs} lbs")
+number = 10
+
+if number > 0:
+    print("The number is positive")
+elif number == 0:
+    print("The number is zero")
+else:
+    print("The number is negative")
