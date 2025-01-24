@@ -84,3 +84,12 @@ quit  - to exit
 
         for item in ['john', 'jerry', 'sarah']:
         print (item)
+
+              for item in range(5,10):
+                print(item)
+
+                price=[10,20,30]
+                total =0
+                for price in price:
+                    total  += price
+                    print (f"total :{total}")
