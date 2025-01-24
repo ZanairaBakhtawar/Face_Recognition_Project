@@ -80,3 +80,7 @@ quit  - to exit
 
     else:
         print("I don't understand that command.")
+
+
+        for item in ['john', 'jerry', 'sarah']:
+        print (item)
