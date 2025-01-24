@@ -52,3 +52,14 @@ elif number == 0:
     print("The number is zero")
 else:
     print("The number is negative")
+
+
+
+for i in range(5):
+    print(f"Outer loop iteration {i}")
+    for j in range(3):
+        print(f"  Inner loop iteration {j}")
+        if j == 2:
+            print("    Condition met for the inner loop")
+    print("End of outer loop\n")
+    
