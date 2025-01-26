@@ -93,3 +93,13 @@ quit  - to exit
                 for price in price:
                     total  += price
                     print (f"total :{total}")
+
+
+secret_number = 25  # Fixed secret number for testing
+
+guess = int(input("Guess the secret number: "))
+
+if guess == secret_number:
+    print("Correct! You guessed the secret number.")
+else:
+    print("Wrong guess. Try again!")
