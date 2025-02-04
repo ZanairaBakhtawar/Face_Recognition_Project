@@ -103,3 +103,12 @@ if guess == secret_number:
     print("Correct! You guessed the secret number.")
 else:
     print("Wrong guess. Try again!")
+
+    
+for i in range(1, 6):
+    if i == 3:
+        continue 
+    if i == 5:
+        break  
+    print(i)
+
