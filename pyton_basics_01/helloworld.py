@@ -112,3 +112,15 @@ for i in range(1, 6):
         break  
     print(i)
 
+import array
+
+# Create an integer array
+numbers = array.array('i', [10, 20, 30, 40])
+
+numbers.append(50)        
+numbers.insert(1, 15)     
+numbers.remove(30)       
+popped = numbers.pop()    
+
+print("Array:", numbers)
+print("Popped element:", popped)
