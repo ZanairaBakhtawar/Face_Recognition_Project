@@ -124,3 +124,12 @@ popped = numbers.pop()
 
 print("Array:", numbers)
 print("Popped element:", popped)
+
+
+import array
+
+arr = array.array('i', [1, 2, 4])
+arr.insert(2, 3)  # Insert 3 at index 2
+print("After Insert:", arr)
+
+
