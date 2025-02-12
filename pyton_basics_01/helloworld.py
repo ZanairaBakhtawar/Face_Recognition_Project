@@ -132,4 +132,40 @@ arr = array.array('i', [1, 2, 4])
 arr.insert(2, 3)  # Insert 3 at index 2
 print("After Insert:", arr)
 
+arr = [10, 20, 30, 40, 50]
+
+# Print array
+print(arr)  # Output: [10, 20, 30, 40, 50]
+
+# Access element
+print(arr[2])  # Output: 30
+
+# Change element
+arr[1] = 25
+print(arr)  # Output: [10, 25, 30, 40, 50]
+
+
+arr = [10, 20, 30, 40, 50]
+
+# Print array
+print(arr)  # Output: [10, 20, 30, 40, 50]
+
+# Access element
+print(arr[2])  # Output: 30
+
+# Change element
+arr[1] = 25
+print(arr)  # Output: [10, 25, 30, 40, 50]
+
+arr = [1, 2, 3]
+
+# Add element
+arr.append(4)
+print(arr)  # Output: [1, 2, 3, 4]
+
+# Remove element
+arr.remove(2)
+print(arr)  # Output: [1, 3, 4]
+
+
 
