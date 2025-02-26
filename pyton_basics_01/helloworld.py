@@ -38,3 +38,9 @@ class ElectricCar:
 
 for vehicle in [Car(), ElectricCar()]:
     print(vehicle.fuel())
+
+
+
+print(len("Hello"))  
+print(len([1, 2, 3, 4])) 
+print(len({"a": 1, "b": 2}))  
