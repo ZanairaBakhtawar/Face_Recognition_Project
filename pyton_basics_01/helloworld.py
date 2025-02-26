@@ -25,3 +25,16 @@ class Penguin:
 # Polymorphism in action
 for animal in [Bird(), Penguin()]:
     print(animal.fly())
+
+
+class Car:
+    def fuel(self):
+        return "Petrol or Diesel"
+
+class ElectricCar:
+    def fuel(self):
+        return "Electricity"
+
+
+for vehicle in [Car(), ElectricCar()]:
+    print(vehicle.fuel())
