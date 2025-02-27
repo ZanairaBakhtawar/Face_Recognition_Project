@@ -13,3 +13,8 @@ import math
 num = 5
 factorial = math.factorial(num)
 print(f"Factorial of {num} is {factorial}")
+
+
+import math 
+x= math.pi
+print(x)
