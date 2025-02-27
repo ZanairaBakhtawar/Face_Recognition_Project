@@ -7,3 +7,9 @@ print(x)
 import math
 x = math.pow(3,2)
 print(x)
+
+
+import math
+num = 5
+factorial = math.factorial(num)
+print(f"Factorial of {num} is {factorial}")
